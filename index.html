@@ -1,10 +1,7 @@
 <html>
 <!-- 
-This code was made by Rayya R
-Blog: https://sinkronin.com
-Instagram: rayyarrr
-TikTok: rayyarr_
-Telegram: @rayyarr
+This code was made by Rayya 
+Sc ny gw reedit
 WhatsApp: +687 84.95.47
 -->
 <meta charset='UTF-8'/>
@@ -61,7 +58,7 @@ blockquote{color:#fefefe;font-size:15px;padding:30px 25px 30px 45px; border:1px 
 <center> 
 	<div id="tombo" class="content2">
 <div id="lopdeg" class="ct1"><label class='lovein' onClick="mulai();nonTo()">&#10084;&#65039;</label></div>
-<p style="opacity:.7;font-size:10px;color:white">Pencet Love-nya</p>
+<p style="opacity:.7;font-size:10px;color:white">Pencet Love-nya🤬</p>
 </div>
  <font color="white"> 
  <div id="clock"></div> <script type="text/javascript">
@@ -151,7 +148,7 @@ blockquote{color:#fefefe;font-size:15px;padding:30px 25px 30px 45px; border:1px 
   var i=0,text;
   text = "Handphone saja sanggup simpan foto sampai beribu-ribu, masa hanya untuk menyimpan aku, hati kamu nggak sanggup sih"
   var u=0,text2;
-  text2 = "JANGAN GALAU YA!!"
+  text2 = "JANGAN GALAU YA!!😖"
 
   function ketik() {
     if(i<text.length){
@@ -177,27 +174,27 @@ blockquote{color:#fefefe;font-size:15px;padding:30px 25px 30px 45px; border:1px 
 
 <!-- Ini JS agar Tombolnya berjalan sesuai perintah -->
 <script type="text/javascript">
-            const author = 'Aku';
+            const author = 'Aku🧸';
             const swals = Swal.mixin({
                 cancelButtonColor: '#909090',
                 confirmButtonColor: '#00B487',
             });
             async function mulai(){
                 var { value: nama } = await swals.fire({
-                    title: 'Masukin nama kamu ayg',
+                    title: 'Masukin nama kamu ayg😖',
                     input: 'text',
                     showCancelButton: false,
                 });
                 if(nama){
                     var { isConfirmed: sayang } = await swals.fire({
                         title: `${nama} sayang gak sama ${author} :(`,
-                        confirmButtonText: 'Sayang lh',
-                        cancelButtonText: 'KgSyang',
+                        confirmButtonText: 'Sayang lh😘',
+                        cancelButtonText: 'KgSyang😜',
                         showCancelButton: true,
                     });
                     if(sayang){
                         var { value: persen } = await swals.fire({
-                            title: 'Seberapa sayang sama gw??',
+                            title: 'Seberapa sayang sama gw??🥺',
                             icon: 'question',
                             input: 'range',
                             inputLabel: 'Antara 0-100% ya',
@@ -211,34 +208,34 @@ blockquote{color:#fefefe;font-size:15px;padding:30px 25px 30px 45px; border:1px 
                         if(persen){
                             await swals.fire(`Makacii udah sayang sama ${author} ${persen}%`);
                             var { isConfirmed: kangen } = await swals.fire({
-                                title: `Terus ${nama} kangen ga sama ${author}?`,
-                                confirmButtonText: 'Kangen',
-                                cancelButtonText: 'Gak',
+                                title: `Terus ${nama} kangen ga sama ${author}?😘`,
+                                confirmButtonText: 'Kangen😘',
+                                cancelButtonText: 'G KANGEN😜',
                                 showCancelButton: true,
                             });
                             if(kangen){
-                                await swals.fire(`Awwhh ${author} juga kangen ${nama} &#10084;&#65039;`);
-                                await swals.fire('Makasih!', 'Udah meluangkan waktunya untuk Buka Web yg ku buat!');
-                                await swals.fire(`Sekarang lihat ini yaa`);
+                                await swals.fire(`Awwhh ${author} juga kangen ${nama}😘 &#10084;&#65039;`);
+                                await swals.fire('Makasih🤧!', 'Udah meluangkan waktunya untuk Buka Web yg ku buat😩!');
+                                await swals.fire(`Sekarang lihat ini yaa🤗`);
                                 
                                 ketik();showDiv()
                             } else {
                                 //gak kangen
-                                await swals.fire('Aarrgghhh');
+                                await swals.fire('Aarrgghhh🤬');
                                 showTo();
                             }
                         }
                     } else {
                         //gak sayang
-                        await swals.fire('Yahh. Sedih:(');
-                        await swals.fire('Yaudah deh');
-                        await swals.fire('Semoga harimu menyenangkan &#10084;&#65039;');
+                        await swals.fire('Yahh. Sedih🥺:(');
+                        await swals.fire('Yaudah deh😩');
+                        await swals.fire('Semoga harimu menyenangkan😖 &#10084;&#65039;');
                         showTo();
                     }
                 } else {
-                    await swals.fire('Isi namanya ayanggg');
-                    await swals.fire('Gak boleh kosong ayg');
-                    await swals.fire('Isi nama ny ya');
+                    await swals.fire('Isi namanya ayanggg🤬');
+                    await swals.fire('Gak boleh kosong ayg🤧');
+                    await swals.fire('Isi nama ny ya☺');
                     mulai();
                 }
             }
